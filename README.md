@@ -1,2 +1,2 @@
 # comparatif-grp3
-Ce projet consisté a créé un site internet qui présente quatre entreprises du jeu vidéo puis les compares sur plusieurs aspects.
+Ce projet a pour intérêt la conception d’un site internet qui mettra face à face quatre entreprises françaises de jeux vidéos.
