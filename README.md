@@ -1,3 +1,7 @@
-# comparatif-grp3
-Ce projet a pour intérêt la conception d’un site internet qui mettra face à face quatre entreprises françaises de jeux vidéos.
-Il a été mené par Guillaume Scordia, Mohamed-Amine EL hajjaji, Noé Taboada, Théo Vieville et le référent du groupe, Elias Khallouk.
+Titre du projet : 
+
+Etudiant 1 (référent du groupe) :  Elias Khallouk (mailto:ekhallou@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 2 : [Nom ](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 3 : [Nom ](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 4 : [Nom ](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 5 : [Nom ](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
