@@ -7,7 +7,6 @@ Etudiant 4 : [Noé Taboada](mailto:noe.taboada@edu.univ-fcomte.fr?subject=SAE_1_
 Etudiant 5 : [Theo Vieville](mailto:theo.vieville@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
 ![] (zoning1.png)
-![] (zoning2.png)
 
 
 
