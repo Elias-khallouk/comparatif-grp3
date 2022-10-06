@@ -9,8 +9,8 @@ Etudiant 5 : [Theo Vieville](mailto:theo.vieville@edu.univ-fcomte.fr?subject=SAE
 ![](zoning1.png)
 ![](zoning2.png)
 
-![](ecran1.png)
-![](ecran2.png)
+![](ecran1.jpg)
+![](ecran2.jpg)
 
 
 
