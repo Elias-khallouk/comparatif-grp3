@@ -421,12 +421,12 @@
 
 
 /*------------------------------*/
-/*            ANKAMA         */
+/*            ARKANE            */
 /*------------------------------*/
 
 /*Alignement à droite */
 .align_right{
-    align="right";
+    text-align: end;
 }
 
 .titre_arkane{
