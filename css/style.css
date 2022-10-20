@@ -341,6 +341,61 @@
 
 
 /*------------------------------*/
+/*            ANKAMA         */
+/*------------------------------*/
+
+    /*TITRE */
+    .titre_ankama{
+        position: relative;
+        color: #FFD60A;    
+        position: relative;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 250px;
+        font-size: 54px;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 20%;
+        text-align: center;
+    }
+
+    /*PARAGRAPHE */
+    .paragraphe_ankama{
+        font-size: large;
+    }
+
+    /*BANNIERE */
+    .banniere_ankama{
+        margin-bottom: 20%;
+    }
+
+    /*BANNIERE IMAGE */
+    .banniere_img_ankama{
+        height: 85%;
+        width: 100%;
+        position: absolute;
+        margin-top: -475px;
+    }
+
+    /*IMAGE 1 */
+    .image1_ankama{
+        height:80%; 
+        width:100%;
+    }
+
+    /*ALIGNER LE TEXTE PAR LA GAUCHE*/
+    .fin{
+        text-align: end;
+    }
+
+    /*IMAGE 2*/
+    .image2_ankama{
+        height:100%; 
+        width:100%;
+    }
+/*------------------------------*/
+/*------------------------------*/
+
+
+/*------------------------------*/
 /*            TABLEAU           */
 /*------------------------------*/
 
