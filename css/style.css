@@ -418,7 +418,10 @@
     .centrer{
         text-align: center;
     }
+
+
 /*------------------------------*/
+/*            ANKAMA         */
 /*------------------------------*/
 
 /*Alignement à droite */
@@ -426,6 +429,18 @@
     align="right";
 }
 
+.titre_arkane{
+    text-align: center;
+    position: relative;
+    color: #FFD60A;    
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 250px;
+    font-size: 54px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20%;
+
+}
 
 
 
