@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossComparative</title>
+    <link rel="stylesheet" href="css/dontnod.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/gamepad-solid.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body> 
+
+    <header> <!--MENU-->
+        <nav class="navbar" style="padding: 0%;">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-list">Accueil</a></li>
+                <li><a href="ankama.html"  class="nav-list">Ankama</a></li>
+                <li><a href="arkane.html"  class="nav-list">Arkane</a></li>
+                <li><a href="dontnod.html"  class="nav-list sur_page" style="color: #000;">DONT NOD</a></li>
+                <li><a href="quantic.html" class="nav-list">Quantic</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--photo de fond-->
+    <div class="container">
+        <div class="row" >
+            <div class="col-sm-12"><img src="img/dontnod2.jpg" style="height: 100%; width:100%" alt=""></div>
+        </div>
+    </div>
+    
+    <!--container du texte 1 + carte-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="card" style="width: 54.5rem">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> IL ETAIT UNE FOIS DONT NOD...</li>
+                    </ul>
+                </div> 
+                <br>
+                <div class="paragraphe_quantic">
+                    <div class="card" style="width: 54.5rem;">
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">DONTNOD est un producteur de jeux vidéos et développeur français. L'équipe produit des jeux narratifs relevant d'une originalité remarquable dans les genres aventure et action. Le studio est reconnu à l’international pour ses expériences narratives proches du réel. Entre histoires fortes et personnages attachants, le studio de jeux vidéos tend à éditée des jeux qui ne présente aucune lassitude. 
+                            <br> <br> Parmi les éditeurs qui ont déjà pris la position d’associés à DONTNOD, on compte Square Enix et Microsoft, mais aussi Bandai Namco Entertainment, Focus Entertainment et Capcom. 
+                            <br> <br> Notamment connu pour le jeu "The Life Is Strange" qui fut un énorme succès commercial dépassant les 3 millions de ventes.  
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="card" style="color: #000;">
+                    <img class="card-img-top" src="img/dontnod5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">DON'T NOD</h5>
+                        <p class="card-text" style="color: #000; text-align: inherit;">Le créateur d'expériences narratives fortes et immersives tout en restant fictives</p>
+                        <a href="https://dont-nod.com/fr/" class="btn btn-primary" style="background-color: #FFC300;border-width: 2px;border-color: black;color: #000;">En Savoir plus</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!--tableau des jeux video-->
+    <br>
+    <br>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center; fs-1">
+                    <div class="shadow-lg p-1 mb-4 bg-body rounded">
+                        Jeux videos et best-seller !
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <table class="table table-striped centrer">
+                    <thead>
+                        <tr class="zero">
+                            <th>#</th>
+                            <td>JEU</td>
+                            <td>Editeur</td>
+                            <td>ANNEE DE SORTIE</td>
+                            <td>PLATES-FORMES</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="impaire">
+                            <th scope="row">1</th>
+                            <td>Remember Me</td>
+                            <td>Capcom</td>
+                            <td> 2013</td>
+                            <td>PlayStation 3, Xbox 360, Windows</td>
+                        </tr>
+                        <tr class="paire">
+                            <th scope="row">2</th>
+                            <td>Life Is Strange</td>
+                            <td>Square Enix</td>
+                            <td>2015</td>
+                            <td>PlayStation 3, Xbox 360, Windows, Linux, Mac, PlayStation 4, Xbox One,</td>
+                        </tr>
+                        <tr class="impaire">
+                            <th scope="row">3</th>
+                            <td>Vampyr</td>
+                            <td>Focus Home interactive</td>
+                            <td>2018</td>
+                            <td>PS4, Xbox One, Windows</td>
+                        </tr>
+                        <tr class="paire">
+                            <th scope="row">5</th>
+                            <td>Les Aventures extraordinaires de Captain Spirit</td>
+                            <td> Square Enix</td>
+                            <td>2018</td>
+                            <td>PS4, Windows</td>
+                        </tr>
+                        <tr class="impaire">
+                            <th scope="row">6</th>
+                            <td>Life Is Strange 2</td>
+                            <td>Square Enix</td>
+                            <td>2018-2019</td>
+                            <td>PlayStation 4, Xbox One, Windows,Linux, Mac</td>
+                        </tr>
+                        <tr class="paire">
+                            <th scope="row">6</th>
+                            <td>Tell Me Why</td>
+                            <td>Xbox Game Studios</td>
+                            <td>2020</td>
+                            <td>Xbox One, Windows</td>
+                        </tr>
+                        <tr class="impaire">
+                            <th scope="row">7</th>
+                            <td>Twin Mirror</td>
+                            <td>Dontnod Entertainment</td>
+                            <td>2020</td>
+                            <td>PlayStation 4, Xbox One, Windows</td>
+                        </tr>
+                            
+                    </tbody>
+                </table>
+            </div> 
+            <div class="col-sm-4">
+                <div class="card" style="width: 26,2rem; height: 70%">
+                    <img src="img/lifeisstrange.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">DONT NOD a su faire varier les scénarios et contextes de ses jeux et le nombre de joueurs de toute plateforme ne cesse de croître.Le succès inéluctable de Life Is Strange ne laissera pas indifférent le chiffre d'affaire de DONT NOD.
+                        <br> <br> Le jeu d'aventure graphique est en vue objective et se rapproche du film interactif.
+                      </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+    
+            </div>   
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h4> Une activité économique sensible mais explicite </h4>
+                        <br>
+                        <b>Back catalogue</b>
+                        <br>
+                        <br>
+                        En 2018, le nombre d'exemplaires s'est élevé à 2 milions soutenu par une excellente performance du back catalogue tirée par VAMPYR.
+                        On compte 8 milions de téléchargements gratuits au cours de l'année 2021, année durant laquelle la popularité du jeu restait très intense.
+                        En somme, cette co-production représente aujourd'hui le plus grand succès financier de l'entreprise.
+                        De même, grâce au succès de TWIN MIRROR, Dont nod parviendra à couvrir 75% de ses investissements. Twin Mirror participera donc largement au chiffre d'affaires de l'exercice 2021.
+                        <br>
+                        <br>
+                        <b>Douche froid...</b>
+                        <br>
+                        <br>
+                        Alors que la société française aspire au succès, la fermeture soudaine du marché chinois ne permettra pas à DONT NOD d'acquérir un chiffre d'affaires digne de ce nom. Les estimations jugent que le chiffre d'affaires généré par l'entreprise dans le futur ne sera que marginal.
+                        <br>
+                        <br>
+                        <br> En conclusion, Dontnod est loin d’avoir donné satisfaction à ses actionnaires pour cause d'un bilan déçevant. L’action a perdu environ un quart de sa valeur depuis son arrivée en Bourse. L’évolution de la société est néanmoins intéressante.
+    
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 26.5rem;">
+                        <img src="img/graph.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"> Bien que l'entreprise bénéficie d'une renommé mondiale et d'une influence accrue dans le monde du gaming, certaines
+                            mauvaises nouvelles ne laisseront pas la société indifférente face à la décroissance de leur chiffre d'affaires.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+        <br><br><hr><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h3> Politique sociale adoptée par la société DONT NOD </h3>
+                    <br>
+                    Chaque année, DONT NOD publie le résultat de son index sur l’égalité entre les hommes et les femmes. L’index de DONTNOD a été calculé et l’entreprise obtient la note de 89/100, un score reflètetant l’engagement pris par l’équipe pour promouvoir l’égalité femmes-hommes au sein du studio. 
+    Ce score est stable depuis 3 années consécutives car en effet, l’égalité professionnelle est un engagement qui s’inscrit pleinement dans la culture  sociale de DONTNOD. On estime que la part des femmes est de 24% de l’effectif total chez DONTNOD France.
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/social.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-1 by" style="margin-top: 1%;">FAIT <br>PAR :</div>
+
+                <span class="card-avatar col-sm-1">EL HAJJAJI<br> Mohamed-Amine     </span>
+
+                <span class="col-sm-6"></span>
+
+                <span class="col-sm-1 by" style="margin-top: 1%;">POUR :</span>
+
+                <a class="col-sm-2" href="http://www.iut-bm.univ-fcomte.fr/" target="_blank">
+
+                    <img style="height: 8vh" src="data:image/png;base64,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" alt="Logo IUT Belfort Montbeliard">
+
+                </a> 
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
